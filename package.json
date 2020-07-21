@@ -1,17 +1,30 @@
 {
-  "name": "eslint-config-calltek",
-  "version": "1.0.0",
-  "description": "Calltek official JS style guide",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "peerDependencies": {
-    "eslint": ">= 3"
-  },
-  "author": "50l3r",
-  "license": "ISC",
-  "dependencies": {
-    "eslint-plugin-vue": "^6.2.2"
-  }
+	"name": "eslint-config-calltek",
+	"version": "1.1.9",
+	"description": "Calltek official JS style guide",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"calltek"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/50l3r/eslint-config-calltek.git"
+	},
+	"author": "50l3r",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.5.0",
+		"eslint-plugin-vue": "^6.2.2"
+	},
+	"peerDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.5.0",
+		"eslint-plugin-vue": "^6.2.2"
+	}
 }

@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-calltek",
-	"version": "1.1.9",
+	"version": "1.1.10",
 	"description": "Calltek official JS style guide",
 	"main": "index.js",
 	"scripts": {
@@ -20,11 +20,15 @@
 	"devDependencies": {
 		"babel-eslint": "^10.1.0",
 		"eslint": "^7.5.0",
+		"eslint-config-airbnb-base": "^14.2.0",
+		"eslint-plugin-import": "^2.22.0",
 		"eslint-plugin-vue": "^6.2.2"
 	},
 	"peerDependencies": {
 		"babel-eslint": "^10.1.0",
 		"eslint": "^7.5.0",
+		"eslint-config-airbnb-base": "^14.2.0",
+		"eslint-plugin-import": "^2.22.0",
 		"eslint-plugin-vue": "^6.2.2"
 	}
 }

@@ -1,7 +1,6 @@
 module.exports = {
 	extends: [
-		'plugin:vue/recommended',
-		'@vue/airbnb',
+		'plugin:vue/recommended'
 	],
 	rules: {
 		'vue/name-property-casing': [2, 'PascalCase'],

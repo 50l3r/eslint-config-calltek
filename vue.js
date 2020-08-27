@@ -26,5 +26,12 @@ module.exports = {
 				vue: 'never'
 			}
 		]
+	},
+	settings: {
+		'import/resolver': {
+			alias: {
+				extensions: ['.js', '.vue', '.scss', '.less']
+			}
+		}
 	}
 };
